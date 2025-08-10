@@ -34,5 +34,9 @@
    ```
 
 **Notes:**
-- Mathematical equations used as input must conform to QF_LIA or QF_NIA rules for functional SMT-LIB code. Equations are not parsed to ensure correctness. For example, rational numbers that result in non-integers, e.g. `3/4` must not be used.
+- Mathematical equations used as input must conform to QF_LIA or QF_NIA rules for functional SMT-LIB code
+- Equations are not parsed to ensure correctness. For example, rational numbers that result in non-integers, e.g. `3/4` must not be used.
+- SymPy-appropriate syntax must be used:
+   - `*` is used for multiplication
+   - `
 - Does not catch non-algebraic nonlinearities, e.g. `sin(x)` or `log(x)`
