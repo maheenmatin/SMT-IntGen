@@ -2,7 +2,7 @@ import sympy as sp
 from sympy import Eq, sympify
 from typing import Set, List, Dict
 
-class SMTEquationConverter:
+class Eq_Converter:
     """
     Converts mathematical equations to SMT-LIB format using SymPy for parsing.
     Supports only equality (==) constraints.
@@ -147,7 +147,7 @@ class SMTEquationConverter:
         return out_file
 
 if __name__ == "__main__":
-    converter = SMTEquationConverter()
+    converter = Eq_Converter()
     constraints = [
         "x + y = 10",
         "2*x - 3*y = 5",

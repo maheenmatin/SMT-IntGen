@@ -28,9 +28,11 @@
 
 5. **Run solver:**
    ```bash
-   poetry run python -m smt-intgen.problem_converter
+   poetry run python -m smt-intgen.eq_converter
    # or
-   poetry run python src/smt-intgen/problem_converter.py
+   poetry run python -m smt-intgen.eq_creator
+   # or
+   poetry run python -m smt-intgen.benchmark_generator
    ```
 
 **Notes:**

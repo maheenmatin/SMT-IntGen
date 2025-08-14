@@ -5,7 +5,7 @@ description = ""
 authors = ["maheenmatin <maheenmatin@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "smt-intgen", from = "src"}]
+packages = [{include = "smt_intgen", from = "src"}]
 
 [tool.poetry.dependencies]
 python = ">=3.12"
